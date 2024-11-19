@@ -1,0 +1,97 @@
+/* src/components/HomePage.css */
+
+.homepage-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7fc;
+    background: url('C:/Users/DELL/OneDrive/krishna onedrive/OneDrive/Pictures/plnt.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Full viewport height */
+}
+
+.homepage-header {
+    text-align: center;
+    background-color: rgba(76, 175, 80, 0.8); /* Green color with opacity */
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bold-text {
+    font-weight: bold; /* Makes the text bold */
+    color: #fff; /* Bright white color */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Adds a soft shadow for better contrast */
+}
+
+.homepage-header h1 {
+    font-size: 40px; /* Increased font size for prominence */
+    margin: 0;
+    color: #fff; /* White color for the header */
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Bright shadow for better visibility */
+}
+
+.intro-text {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fff; /* White color for the intro text */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4); /* Increased contrast for readability */
+}
+
+.project-info {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight opacity for transparency */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-info h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Darker color for text in project info */
+}
+
+.project-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-info li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.home-image {
+    width: 45%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.home-image:hover {
+    transform: scale(1.05);
+}
+
+.homepage-footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+}
+
